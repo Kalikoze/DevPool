@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import Header from '../Header/Header';
+import Search from '../Search/Search';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
           return (
             <div>
               <Header />
+              <Search />
             </div>
           )
         }} />
