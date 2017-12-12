@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/scss/Header.scss'
 import { NavLink, Redirect } from 'react-router-dom';
 
 const Header = () => {
@@ -18,7 +19,7 @@ const Header = () => {
         </NavLink>
         <NavLink to="/signup" className="nav-section">
           <li className="home-link link">
-              Home
+              Sign In
           </li>
         </NavLink>
       </ul>
