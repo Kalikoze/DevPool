@@ -81,10 +81,20 @@ a:hover {
   font-size: 2vw;
   height: 50px;
   margin: 10px;
+  outline: none;
   padding-left: 10px;
   width: 70%; }
 
 .advanced {
   text-align: right; }
+
+.button {
+  border-radius: 19px;
+  cursor: pointer;
+  font-size: 2vw;
+  height: 45px;
+  outline: none;
+  padding: 9px;
+  width: 15%; }
 
 /*# sourceMappingURL=index.css.map */
