@@ -11,6 +11,9 @@ nav {
   flex-direction: row;
   height: 10vh;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 h1 {
