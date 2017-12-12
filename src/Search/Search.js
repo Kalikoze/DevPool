@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import happyWorkers from './assets/developers-working-together.jpg';
+import Button from '../Button/Button';
 
 export default class Search extends Component {
   constructor() {
@@ -29,6 +30,7 @@ export default class Search extends Component {
                 Advanced Search...
               </p>
             </article>
+            <Button text={'Search'}/>
           </section>
       </section>
     )
