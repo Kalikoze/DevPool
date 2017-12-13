@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/scss/Button.scss'
 
-const Button = ({text}) => {
+const Button = ({ text, btnStyle }) => {
 
   return (
-    <button className='button' onClick={(e) => e.preventDefault()}>
+    <button className={ btnStyle } onClick={(e) => e.preventDefault()}>
       { text }
     </button>
   )

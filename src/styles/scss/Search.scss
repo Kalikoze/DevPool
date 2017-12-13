@@ -1,12 +1,9 @@
 .l-search {
+  background-image: url('../../../src/Search/assets/developers-working-together.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
-  position: absolute;
-  width: 100%;
-}
-
-.l-search img {
-  object-fit: cover;
-  height: 100%;
+  overflow: hidden;
   width: 100%;
 }
 
@@ -33,11 +30,13 @@
 }
 
 .search-text, .advanced {
+  font-family: 'Titillium Web';
   text-align: left;
   width: 70%;
 }
 
 .search-input input {
+  font-family: 'Titillium Web';
   font-size: 2vw;
   height: 50px;
   margin: 10px;
