@@ -1,6 +1,7 @@
 .button {
   border-radius: 19px;
   cursor: pointer;
+  font-family: 'Titillium Web';
   font-size: 2vw;
   height: 45px;
   outline: none;

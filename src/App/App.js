@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import Header from '../Header/Header';
 import Search from '../Search/Search';
+import Section from '../Section/Section';
 
 class App extends Component {
   render() {
@@ -12,6 +13,9 @@ class App extends Component {
             <div>
               <Header />
               <Search />
+              <Section />
+              <Section />
+              <Section />
             </div>
           )
         }} />

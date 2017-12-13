@@ -14,7 +14,6 @@ export default class Search extends Component {
     const { search } = this.state;
     return (
       <section className="l-search">
-        <img src={happyWorkers} alt="Picture of people working happily!" />
           <section className="overlay">
             <article className="search-input">
               <p className="search-text">
@@ -22,15 +21,15 @@ export default class Search extends Component {
               </p>
               <input
                 type="text"
-                value={search}
-                placeholder="Specify what dev job you're looking for"
+                value={ search }
+                placeholder="Specify the dev job you're looking for"
                 onChange={e => this.setState({ search: e.target.value })}
               />
               <p className='advanced'>
                 Advanced Search...
               </p>
             </article>
-            <Button text={'Search'}/>
+            <Button btnStyle={ 'button' } text={'Search'} />
           </section>
       </section>
     )
