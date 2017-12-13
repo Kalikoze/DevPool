@@ -22,10 +22,15 @@
 .reverse .section-btn {
   align-self: flex-start; }
 
+.footer {
+  background-color: #656A72;
+  color: #FFF;
+  justify-content: center; }
+
 .section-desc {
   font-size: 14px;
   font-weight: 300;
-  padding: 10px 10px 20px 10px; }
+  padding: 10px 20px 20px 20px; }
 
 .section-btn {
   background-color: #209EDB;
@@ -47,13 +52,33 @@
   background-size: cover;
   border-radius: 25px;
   display: flex;
-  height: 250px;
+  height: 50vh;
   width: 500px; }
+
+.footer article {
+  padding: 20px;
+  text-align: center;
+  width: 65%; }
+
+.footer .section-header {
+  font-size: 3vw;
+  padding: 0; }
+
+.footer .section-desc {
+  padding: 20px 0; }
 
 .reverse .section-image {
   background-image: url("../../../src/Section/assets/searching-for-jobs.jpg"); }
 
 .last .section-image {
   background-image: url("../../../src/Section/assets/meetups.jpg"); }
+
+.footer .section-image {
+  display: none; }
+
+.footer .section-btn {
+  background-color: #FFF;
+  color: #209EDB;
+  margin: 5px 0px 10px 0px; }
 
 /*# sourceMappingURL=Section.css.map */

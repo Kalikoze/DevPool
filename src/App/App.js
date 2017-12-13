@@ -27,6 +27,11 @@ class App extends Component {
                 category='last'
                 sectionDescription={`Another powerful tool DevPool offers is the ability to network.  Get recommendations on which people you should contact when you are interested in a position.  Sync your GitHub, LinkedIn, & Twitter accounts so you can keep track of your messages all in one place.  If that's not enough, we also can make recommendations on meetups and conferences that your friends are attending as well, so you can be at the right places with the right people.  The developer world is based on teamwork and communication.  At DevPool, you can have access to all of this all in one place.  What are you waiting for?`}
               />
+              <Section
+                sectionHeader='Jump Into The DevPool Now!'
+                category='footer'
+                sectionDescription={`We've been there and we know the job search can be a struggle especially if this is your first job.  Why not make your life a little easier and join the hundreds that are already a part of this community?  Be apart of the team and join the search.  Interested in hiring as well?  We've got plans to add that to the dashboard soon. Follow our updates here and sign up for our newsletter so you can stay up to date with the latest features.`}
+              />
             </div>
           )
         }} />
