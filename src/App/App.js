@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Search from '../Search/Search';
 import Section from '../Section/Section';
 import Login from '../Login/Login';
+import Dashboard from '../Dashboard/Dashboard';
 
 class App extends Component {
   render() {
@@ -36,11 +37,16 @@ class App extends Component {
             </div>
           )
         }} />
-
         <Route exact path='/login' render={() => {
           return (
             <div>
               <Login />
+            </div>                              
+        <Route exact path='/dashboard' render={() => {
+          return (
+            <div>
+              <Header type="dashboard-header"/>
+              <Dashboard />
             </div>
           )
         }} />
