@@ -17,8 +17,8 @@ const Header = () => {
               Suggestions & Feedback
           </li>
         </NavLink>
-        <NavLink to="/signup" className="nav-section">
-          <li className="home-link link">
+        <NavLink to="/login" className="nav-section">
+          <li className="login-link link">
               Sign In
           </li>
         </NavLink>
