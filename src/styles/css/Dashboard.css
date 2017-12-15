@@ -1,0 +1,9 @@
+.dashboard {
+  background-image: url("../../../src/Dashboard/assets/ice.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%; }
+
+/*# sourceMappingURL=Dashboard.css.map */
