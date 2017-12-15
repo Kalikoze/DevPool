@@ -41,7 +41,9 @@ class App extends Component {
           return (
             <div>
               <Login />
-            </div>                              
+            </div>
+          )
+        }} />                             
         <Route exact path='/dashboard' render={() => {
           return (
             <div>
