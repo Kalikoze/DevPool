@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import Header from '../Header/Header';
 import Search from '../Search/Search';
 import Section from '../Section/Section';
+import Login from '../Login/Login';
 
 class App extends Component {
   render() {
@@ -32,6 +33,14 @@ class App extends Component {
                 category='footer'
                 sectionDescription={`We've been there and we know the job search can be a struggle especially if this is your first job.  Why not make your life a little easier and join the hundreds that are already a part of this community?  Be apart of the team and join the search.  Interested in hiring as well?  We've got plans to add that to the dashboard soon. Follow our updates here and sign up for our newsletter so you can stay up to date with the latest features.`}
               />
+            </div>
+          )
+        }} />
+
+        <Route exact path='/login' render={() => {
+          return (
+            <div>
+              <Login />
             </div>
           )
         }} />
