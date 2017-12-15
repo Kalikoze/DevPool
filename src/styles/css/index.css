@@ -197,4 +197,17 @@ a:hover {
   opacity: .5;
   width: 30%; }
 
+.welcome {
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 30%;
+  width: 50%; }
+
+.welcome h2, .welcome p {
+  color: #FFF;
+  height: 10%;
+  width: 100%; }
+
 /*# sourceMappingURL=index.css.map */
