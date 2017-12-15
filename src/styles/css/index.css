@@ -228,10 +228,40 @@ body, html {
   height: 100vh;
   width: 100%; }
 
+.welcome {
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 30%;
+  width: 50%; }
+
+.welcome h2, .welcome p {
+  color: #FFF;
+  height: 10%;
+  width: 100%; }
+
+.notifications {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #FFF;
+  display: flex;
+  font-size: 2vw;
+  height: 30%;
+  justify-content: center;
+  width: 40%; }
+
 .tabs {
   background-color: #FFF;
   height: 60%;
   opacity: .5;
   width: 30%; }
+
+.display {
+  background-color: rgba(242, 244, 244, 0.85);
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 55%; }
 
 /*# sourceMappingURL=index.css.map */
