@@ -229,6 +229,15 @@ body, html {
   margin-top: 20px;
   width: 90%; }
 
+.div-icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end; }
+
+.exit-icon {
+  height: 30px;
+  width: 30px; }
+
 .dashboard {
   background-image: url("../../../src/Dashboard/assets/ice.jpg");
   background-repeat: no-repeat;
