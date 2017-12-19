@@ -52,6 +52,7 @@ a:hover {
 }
 
 .dashboard-header a:hover {
-  transform: scale(1.2);
-  text-shadow: 0 0 2px #FFF;
+  border-bottom: solid 2px #FFF;
+  display: inline;
+  padding-bottom: 3px;
 }
