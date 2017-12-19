@@ -1,7 +1,8 @@
 .tabs {
   background-color: #FFF;
-  height: 60%;
+  height: 100%;
+  grid-area: tabs;
   opacity: .5;
-  width: 30%; }
+  width: 100%; }
 
 /*# sourceMappingURL=Tabs.css.map */

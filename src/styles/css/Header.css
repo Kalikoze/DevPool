@@ -36,4 +36,15 @@ a {
 a:hover {
   border-bottom: 4px solid #FFF; }
 
+.dashboard-header {
+  background-color: rgba(255, 255, 255, 0.35);
+  grid-area: header; }
+
+.dashboard-header a {
+  border-bottom: none; }
+
+.dashboard-header a:hover {
+  transform: scale(1.2);
+  text-shadow: 0 0 2px #FFF; }
+
 /*# sourceMappingURL=Header.css.map */

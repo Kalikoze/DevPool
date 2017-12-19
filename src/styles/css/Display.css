@@ -2,7 +2,8 @@
   background-color: rgba(242, 244, 244, 0.85);
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
-  height: 55%; }
+  grid-area: display;
+  height: 100%;
+  width: 100%; }
 
 /*# sourceMappingURL=Display.css.map */
