@@ -1,0 +1,36 @@
+.tab {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  color: #FFF;
+  display: flex;
+  font-size: 2vw;
+  height: 20%;
+  justify-content: center;
+  width: 100%; }
+
+.tab:nth-child(1) {
+  background-color: rgba(101, 106, 114, 0.75); }
+
+.tab:nth-child(2) {
+  background-color: rgba(121, 124, 124, 0.75); }
+
+.tab:nth-child(3) {
+  background-color: rgba(101, 106, 114, 0.75); }
+
+.tab:nth-child(4) {
+  background-color: rgba(121, 124, 124, 0.75); }
+
+.tab:nth-child(5) {
+  background-color: rgba(101, 106, 114, 0.75); }
+
+.tab:hover {
+  background-color: #FFF;
+  color: #000;
+  cursor: pointer; }
+
+.tab:hover span {
+  border-bottom: solid 2px #000;
+  display: inline;
+  padding-bottom: 5px; }
+
+/*# sourceMappingURL=Tab.css.map */
