@@ -1,5 +1,6 @@
 const Nightmare = require('nightmare');
 const nightmare = Nightmare({ show: true });
+const fs = require('fs');
 
 nightmare
   .goto('https://www.builtincolorado.com/')
@@ -8,18 +9,19 @@ nightmare
   .click('.main-categories .item:nth-child(5) a')
   .wait(2000)
   .evaluate(() => {
-    let title = document.querySelector('.center-left .title').innerHTML;
-    let company = document.querySelector('.center-left .company-title').innerHTML;
-    let description = document.querySelector('.center-left .description').innerHTML
+    let jobs = document.querySelectorAll('.center-left');
+    const jobInfo = [];
 
-    return (
-      {
-        title,
-        company,
-        description
-      }
-    )
+    jobs.forEach((job, i) => {
+      let title = job.querySelector('.title').innerText;
+      let company = job.querySelector('.company-title').innerText;
+      let description = job.querySelector('.description').innerText;
+
+      jobInfo.push({title, company, description});
+    })
+
+    return jobInfo;
   })
   .end()
-  .then(result => console.log(result))
+  .then(result => fs.writeFileSync('builtincolorado.json', JSON.stringify(result)))
   .catch(error => console.log({ error }))
