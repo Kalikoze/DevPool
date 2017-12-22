@@ -2,9 +2,10 @@ import React from 'react';
 import '../styles/scss/Header.scss'
 import { NavLink, Redirect } from 'react-router-dom';
 
-const Header = () => {
+const Header = ({ type }) => {
+
   return (
-    <nav>
+    <nav className={type}>
       <h1>DevPool</h1>
       <ul>
         <NavLink to="/blog" className="nav-section">
